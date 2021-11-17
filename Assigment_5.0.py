@@ -1,4 +1,8 @@
-
+#Importing math because of the usage of math.trunc.
+#Lopping the if and else statement in case the user inputs a non-number character, it can also pass through a special case when going to the except statement.
+#math.trunc so the rounding off will be a normal round-off since round() function in python is not accurate to the normal round off we do in our daily lives:
+#The round(_) function only rounds to the nearest even integer when the decimal point is at ".5"
+#Inputting numbers not in the range of 65-100 will take you back to the inputting of grade percentage
 import math
 valid = True
 while valid:
@@ -47,6 +51,10 @@ while valid:
             break
         else:
             print("Please input grade percentage from 65 - 100")
+#Here we have the special cases in case the user doesn't actually have a grade in the school.
+#Using .upper() so that the letters strings that will be inputted won't be case sensitivee.
+#In case you put non-number characters and you aren't even included in the incomplete, withdrawn, or dropped:
+#You are going back to the inquiry of grade percentage.
     except:
         status = input("Are you incomplete, withdrawn or dropped? Type YES or NO: ").upper()
         if status == "YES":

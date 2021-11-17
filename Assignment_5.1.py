@@ -1,3 +1,5 @@
+#There is also a while loop in here in case numebers are not inputted.
+#Floats are to be used so all real numbers can be evaluated.
 valid = True
 while valid:
     try:

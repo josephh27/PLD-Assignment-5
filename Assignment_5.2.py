@@ -1,3 +1,5 @@
+#Always looping until you input a proper number
+#Added some varieties of printing, time travelling if you're negative years old. You are probably from the future or something.
 running = True
 while running:
     try:
