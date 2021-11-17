@@ -1,5 +1,5 @@
 #Importing math because of the usage of math.trunc.
-#Lopping the if and else statement in case the user inputs a non-number character, it can also pass through a special case when going to the except statement.
+#Looping the if and else statement in case the user inputs a non-number character, it can also pass through a special case when going to the except statement.
 #math.trunc so the rounding off will be a normal round-off since round() function in python is not accurate to the normal round off we do in our daily lives:
 #The round(_) function only rounds to the nearest even integer when the decimal point is at ".5"
 #Inputting numbers not in the range of 65-100 will take you back to the inputting of grade percentage
